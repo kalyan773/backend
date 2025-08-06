@@ -20,6 +20,10 @@ let middleware = {
       console.log("Fetched IDs from DB:", result);
       console.log("frghjkl")
 
+      console.log("abccccc")
+
+
+
       if (result.length === 0) {
         // If ID doesn't exist, respond with an error
         return res.status(404).json({ error: "ID not found" });
