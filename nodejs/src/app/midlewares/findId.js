@@ -18,6 +18,11 @@ let middleware = {
       // Fetch all employee IDs from the database
       let result = await findId(empId);
       console.log("Fetched IDs from DB:", result);
+      console.log("frghjkl")
+
+      console.log("abccccc")
+
+
 
       if (result.length === 0) {
         // If ID doesn't exist, respond with an error
